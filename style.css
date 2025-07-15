@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+      font-family: Arial, sans-serif;
+
+}
+
+/* top ko */
+nav{
+    /* background-color: aqua; */
+    background-image: linear-gradient(to left bottom, #1A98FF, #f0f0f0);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    
+}
+nav img{
+    height: 5rem;
+
+}
+
+/* pic bhako main */
+
+.hero{
+    
+    background-image:
+        linear-gradient(to bottom, #00000045,#0301018b), 
+        url(Images/Untitled\ design.png);
+
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    height: 10rem;
+font-size: xx-large;
+font-weight: bolder;
+
+}
+
+.hero h1{
+    color: #e50914;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.hero p{
+    color: rgb(255, 253, 253);
+    text-align: center;
+    margin-top: -1rem;
+    
+}
+
+/* main content bhako wala */
+.area{
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0), rgba(0, 0, 0, 0.808));
+    height: auto;
+}
+
+/* sab content ko container */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    
+}
+
+
+.imgs{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+/* naam ra photo ko container */
+.content{
+    margin: 10px;
+    height: 165.91px;
+    width: 300px;
+    padding-bottom: 25px;
+    
+}
+
+.phota{
+    width: 100%;
+    max-width: 300px;
+    height: auto ;
+    border-radius: 3%;
+    max-height: fit-content;
+}
+
+/* movie ko naam */
+.content p{
+    color: rgb(222, 222, 222);
+    text-align: center;
+    /* cursor: pointer; */
+    /* text-decoration: none; */
+}
+
+
+/* hover effect damn */
+.content img:hover{
+transform: scale(1.05);
+transition: transform 0.1s;
+}
+
+
+
+
+/* footer */
+footer{
+    /* background-color: rgb(35, 6, 28); */
+     background-image: linear-gradient(to right top, #1A98FF, #f0f0f0);
+    height: 0.8rem;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: auto;
+}
+.foot{
+    justify-content: center;
+    display: flex;
+            
+}

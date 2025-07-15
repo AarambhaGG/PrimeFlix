@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+
+}
+
+.bg{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.238)), url(Images/Rick-and-Morty.avif);
+    height: 45rem;
+        background-size: cover;
+    background-position: center; 
+    position: relative;
+    max-height: 600px;
+    
+}
+
+.video iframe{
+    border: none;
+    border-radius: 20px;
+}
+.logo img   {
+    height: 75px;
+    width: 125px;
+    position: fixed;
+    padding-left: 50px;
+    padding-top: 25px;
+
+}
+body{
+    background-color: rgb(14, 14, 52);
+    height: 850px;
+    
+    
+}
+body h1{
+    color: rgba(240, 248, 255, 0.851);
+    padding-top: 10px;
+    /* text-align: center; */
+    padding-left: 270px;
+    font-size: x-large;
+    font-weight: 700;
+        position: absolute;    
+
+}
+body p{
+    color: rgba(240, 248, 255, 0.726);
+    padding-left: 270px;
+    padding-top: 55px;
+    width: 43%;
+    font-size: medium;
+position: absolute;    
+font-weight: 100;
+}
+.box{
+    height: 175px;
+    width: 300px;
+    padding-left: 61%;
+    padding-top: 15px;
+
+
+}
+.box img{
+    width: 100%;
+    max-width: 300px;
+    height: 168px ;
+    border-radius: 3%;
+    
+
+}
